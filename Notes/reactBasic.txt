@@ -1,0 +1,30 @@
+1) JSX
+is HTML-like or XML-like syntax
+
+JSX (transpiled before it reaches th JS) - PARCEL - BABEL
+
+Babel - javascript compiler
+
+React.createElement => RecatElement.js Object => HTMLElement
+
+JSX is converter jsx to react.createElement and then its convert in js object
+
+JSX => React.createElement => RecatElement.js Oject => HTMLElement
+
+2) React component :- 
+    1) class based components - old based 
+    2) function based components - new based
+
+1) function based components :-
+ -> its noramal javascript function
+ -> a function which is return javascript 
+
+const HeadingComponent = () =>{
+    return <h1>this is heading</h1>
+}
+
+react element -  javascript variable
+
+const title = <h1>hello<h1>
+
+component composition -> component inside in component
